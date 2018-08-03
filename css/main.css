@@ -2012,7 +2012,7 @@ li.menu-item-has-children:hover > .mega-menu{
 	overflow: hidden;
 }
 .tg-footerlogobar .tg-logo{
-	width: 280px;
+	width: 380px;
 	float: none;
 	display: block;
 	margin: 0 auto;
@@ -6545,6 +6545,7 @@ li.menu-item-has-children:hover > .mega-menu{
 	float:left;
 	position:relative;
 	padding:0 430px 0 0;
+	margin-bottom: 100px; /*Custom Siguela*/
 }
 .tg-portfoliocontent h2{
 	font-size:24px;
@@ -8558,4 +8559,17 @@ Bottom to Top
 	-o-transition: all 0.3s 1s ease-out;
 	transition: all 0.3s 1s ease-out;
 }
+}
+
+/* =============================================
+			CUSTOM STYLES : SIGUE LA POLILLA;				
+============================================= */
+.vcenter {
+    display: inline-block;
+    vertical-align: middle !important;
+    float: none;
+}
+
+.darkbackground {
+	background-color: #000;
 }
