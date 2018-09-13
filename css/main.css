@@ -8573,3 +8573,36 @@ Bottom to Top
 .darkbackground {
 	background-color: #000;
 }
+
+.box-row-content-galeria {
+    height: 210px;
+    position: relative;
+    min-height: 1rem;
+    margin-bottom: 0;
+    border: 1px solid #FFF;
+    border-radius: 2px;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            -webkit-flex-direction: row;
+            flex-direction: row;
+    box-pack: center;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+    box-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+    -ms-flex-line-pack:center;
+        -webkit-align-content:center;
+            align-content:center;
+        cursor: pointer;
+}
